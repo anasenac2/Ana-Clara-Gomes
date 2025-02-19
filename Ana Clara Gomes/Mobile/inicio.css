@@ -1,0 +1,85 @@
+
+body {
+    background-image: url(background.png);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+  .inicio {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+   margin-top: 50px;
+  }
+  
+  .container {
+    text-align: center;
+  }
+
+  .titu {
+    width: 130px; 
+    height: auto;
+    max-height: 250px;
+  }
+  .titulo {
+    font-size: 2.5rem;
+    color: rgb(0, 0, 0); 
+    margin-top: 20px; 
+    font-weight: 800;
+    max-width: 100%;
+  }
+  .botao {
+      align-items: center;
+    display: flex;
+    flex-direction: column; 
+    gap: 15px; 
+    margin-top: 30px; 
+  }
+  .btn {
+    width: 200px; 
+    padding: 12px; 
+    font-size: 1.1rem;
+    border-radius: 25px; 
+  }
+  .btn-primary {
+    background-color: #8F0000;
+    border: none; 
+    color: white; 
+  } 
+  .btn-secondary {
+    background-color: #AAAAAA; 
+    border: none;
+    color: white;
+  }
+ .explorar {
+  background-color: rgb(255, 255, 255);
+  margin-top: 20px;
+  width: 100%;
+  border-radius: 40px;
+  height: auto;
+  text-align: center;
+ }
+ .explorar img.foto {
+  border-radius: 40px;
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-bottom: 10px;
+ }
+ .explorar .titulo-foto{
+  color: rgb(0, 0, 0); 
+  font-weight: 700;
+  font-size: 1.5rem;
+  white-space: nowrap;
+  overflow: hidden;
+ }
+ .explorar .container{
+  display: inline-block; 
+  width: 100%;
+ }
+ .explorar .paragrafo {
+  margin-top: 10px;
+  color: #8F0000;
+ }
